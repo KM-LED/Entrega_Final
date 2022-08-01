@@ -1,0 +1,30 @@
+$btn: (
+    border:0,
+    border-radius:15px,
+    padding: 12px 10px,
+    background: $colorbtn,
+    
+    
+);
+
+button {
+    border: map-get($btn , border);
+    border-radius: map-get($btn , border-radius);
+    padding: map-get($btn , padding);
+    background-color: map-get($btn ,background);
+    margin:8px;
+    
+    
+    &:hover {
+        background-color:#25bdd8;
+    }
+}
+
+.btn-primary {
+
+    @extend button;
+    border-radius: 5px;
+    background-color: rgb(221, 31, 126);  
+}
+
+

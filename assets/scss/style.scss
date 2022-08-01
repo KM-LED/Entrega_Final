@@ -1,0 +1,31 @@
+$colorTextProduc: rgb(9, 80, 102);
+$colorHoverProduc: rgb(201, 15, 83);
+$colorbtn:rgb(170, 223, 209);
+
+@import "reset";
+@import "mixin";
+@import "nav";
+@import "cardproductos";
+@import "maindescargas";
+@import "btn"; 
+@import "redes";
+
+
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.footercolor footer {
+    background-color: #e4eee8;
+}
+
+.colorfondo{
+    background: linear-gradient(to right, #2338f5, #0b0127);
+}
+
+.textcontac{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} 
